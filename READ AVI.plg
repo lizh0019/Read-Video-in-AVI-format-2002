@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: READ AVI - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/READ AVI.res" /d "_DEBUG" /d "_AFXDLL" "G:\VC AVI\READ AVI\READ AVI.rc"" 
+Creating temporary file "C:\DOCUME~1\GEQING~1\LOCALS~1\Temp\RSP4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/READ AVI.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\VC AVI\READ AVI\MainFrm.cpp"
+"G:\VC AVI\READ AVI\READ AVI.cpp"
+"G:\VC AVI\READ AVI\READ AVIDoc.cpp"
+"G:\VC AVI\READ AVI\READ AVIView.cpp"
+"G:\VC AVI\READ AVI\UserWatermark.cpp"
+"G:\VC AVI\READ AVI\UserWatermark66bit.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\GEQING~1\LOCALS~1\Temp\RSP4.tmp" 
+Creating temporary file "C:\DOCUME~1\GEQING~1\LOCALS~1\Temp\RSP5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/READ AVI.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\VC AVI\READ AVI\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\GEQING~1\LOCALS~1\Temp\RSP5.tmp" 
+Creating temporary file "C:\DOCUME~1\GEQING~1\LOCALS~1\Temp\RSP6.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/READ AVI.pdb" /debug /machine:I386 /out:"Debug/READ AVI.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\READ AVI.obj"
+".\Debug\READ AVIDoc.obj"
+".\Debug\READ AVIView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\UserWatermark.obj"
+".\Debug\UserWatermark66bit.obj"
+".\Debug\READ AVI.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\GEQING~1\LOCALS~1\Temp\RSP6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+READ AVI.cpp
+READ AVIDoc.cpp
+g:\vc avi\read avi\myfunction.h(40) : warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+g:\vc avi\read avi\myfunction.h(55) : warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+g:\vc avi\read avi\myfunction.h(365) : warning C4172: returning address of local variable or temporary
+G:\VC AVI\READ AVI\READ AVIDoc.cpp(8494) : warning C4101: 'r' : unreferenced local variable
+G:\VC AVI\READ AVI\READ AVIDoc.cpp(9123) : warning C4101: 'p' : unreferenced local variable
+G:\VC AVI\READ AVI\READ AVIDoc.cpp(9145) : warning C4101: 'neighbor_mean' : unreferenced local variable
+G:\VC AVI\READ AVI\READ AVIDoc.cpp(9123) : warning C4101: 'q' : unreferenced local variable
+G:\VC AVI\READ AVI\READ AVIDoc.cpp(9145) : warning C4101: 'neighbor_variance' : unreferenced local variable
+G:\VC AVI\READ AVI\READ AVIDoc.cpp(9144) : warning C4101: 'temp_V' : unreferenced local variable
+G:\VC AVI\READ AVI\READ AVIDoc.cpp(9140) : warning C4101: 'temp_DCT_Coefficient_Mean' : unreferenced local variable
+G:\VC AVI\READ AVI\READ AVIDoc.cpp(9144) : warning C4101: 'VEM' : unreferenced local variable
+G:\VC AVI\READ AVI\READ AVIDoc.cpp(9854) : warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+G:\VC AVI\READ AVI\READ AVIDoc.cpp(9869) : warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+READ AVIView.cpp
+UserWatermark.cpp
+UserWatermark66bit.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+READ AVI.exe - 0 error(s), 13 warning(s)
+</pre>
+</body>
+</html>
